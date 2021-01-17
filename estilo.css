@@ -1,0 +1,124 @@
+body {
+        background-image: url('imagenes/fondo.jpg');
+        width: 100%;
+}
+* {
+        padding: 0;
+        margin: 0;
+}
+p {
+        margin-bottom: 20px;
+}
+header {
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+}
+nav {
+        float: left;
+}
+nav ul {
+        list-style: none;
+        overflow: hidden;
+}
+nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+}
+nav ul li a {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+}
+nav ul li:hover {
+        background: rgba(0, 0, 255, 1);
+}
+.contenido {
+        padding-top: 50px;
+}
+.wrapper {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+}
+        #bloquegris {
+                margin-left: 10%;
+                margin-right: 10%;
+                width: 80%;
+                background-image: url('imagenes/fondo_bloque.jpg');
+        }
+        #Titulo{
+                text-align: center;
+                font-size: 100px;
+                font: large;
+        }
+        #Subtitulo1{
+                text-align: center;
+                font-size: 50px;
+                font: large;
+        }
+        #Subtitulo2{
+                text-align: left;
+                font-size: 50px;
+                font: large;
+        }
+        #Subtitulo3{
+                text-align: left;
+                font-size: 30px;
+                font: large;
+        }
+        #Definicion{
+                text-align: center;
+                font-size: 25px;
+        }
+        #Definicion2{
+                text-align: left;
+                font-size: 25px;
+        }
+        #navegacion{
+                margin-left: 15%;
+                margin-right: 15%;
+                width: 70%;
+                background-color: grey;
+        }
+        #foto11{
+                width: 49.8%;
+                height: 350px;
+        }
+        #esquema{
+                width: 49.8%;
+                height: 350px;
+        }
+        #foto12{
+                width: 49.8%;
+                height: 350px;
+        }
+        #funcionamiento{
+                position: relative;
+                text-align: center;
+                color: black;
+                font-size: 20px;
+        }
+        #funcionamiento1{
+                position: relative;
+                text-align: center;
+                color: black;
+                font-size: 25px;
+                font-style: unset;
+        }
+        #imagen12{
+                float: left;
+        }
+        #funcionamiento2{
+                font-size: 15px;
+        }
+        #funcionamiento3{
+                font-size: 20px;
+        }
+        #gif{
+                width: 49.8%;
+                height: 350px;
+        }
